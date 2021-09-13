@@ -2,27 +2,29 @@ import React from "react";
 
 const Subscribe = () => {
   return (
-    <div className="container-fluid bg-dark text-white px-5 mt-3">
-      <div className="d-flex  justify-content-between">
-        <div className="fw-bold my-3 justify-content-start">
-          Subscribe To Our Newsletter
-        </div>
-        <div className="my-3">
-          <form className="row row-cols-md-2">
-            <div>
-              <input
-                type="text"
-                className="form-control"
-                placeholder="Enter email"
-              />
-            </div>
-            <div>
-              <button className="btn btn-primary">Subscribe</button>
-            </div>
-          </form>
-        </div>
+    <>
+    <div class="border-top border-danger w-100"></div>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand fw-bold " href="#">
+          <h4>Subscribe To Our NewsLetter</h4>
+        </a>
+        
+        <form className="row">
+              <div className="col-8">
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Enter Email..."
+                />
+              </div>
+              <div className="col-4 px-1">
+                <button className="btn btn-success btn-md">Subscript</button>
+              </div>
+            </form>
       </div>
-    </div>
+    </nav>
+    </>
   );
 };
 
