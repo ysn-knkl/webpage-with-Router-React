@@ -10,7 +10,7 @@ import Css from "../pages/Css";
 
 const AppRouter = () => {
   return (
-    <Router basename="Clarusway">
+    <Router basename="/clarusway">
         <Switch>
           <Route path="/about" component={About} />
           <Route path="/services" component={Services} />
