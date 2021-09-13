@@ -1,12 +1,13 @@
 import React from "react";
 import Html from "../assets/logo_html.png";
+import Footer from '../components/Footer';
 
 const CardIdent = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" >
       <div className="container my-3">
         <div className="row">
-          <img src={Html} class="w-25 mx-auto" alt="..." />
+          <img src={Html} class="w-25 mx-auto" alt="..."  />
         </div>
       </div>
       <div>
@@ -27,13 +28,7 @@ const CardIdent = () => {
           ad blanditiis sed maxime eius veritatis voluptate? Voluptate
           voluptates quaerat, modi dolorum dolores, sapiente totam dignissimos
           accusantium quos cum molestiae non officiis eum, ipsa ratione ab
-          incidunt suscipit! Facilis repellendus animi labore nemo, mollitia ad
-          dolores, neque similique dolorem odit quos fugiat nisi magnam
-          doloribus cum possimus voluptatum porro autem laborum ullam ut non
-          aperiam? Perferendis libero aperiam quasi tempora delectus architecto
-          cumque sunt illum eaque, labore consectetur velit saepe unde dolorum
-          culpa, praesentium est ipsa dolore. Accusamus architecto laudantium
-          esse. Praesentium, modi.
+          incidunt suscipit!
         </p>
         <p className="py-3">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias
@@ -52,15 +47,10 @@ const CardIdent = () => {
           ad blanditiis sed maxime eius veritatis voluptate? Voluptate
           voluptates quaerat, modi dolorum dolores, sapiente totam dignissimos
           accusantium quos cum molestiae non officiis eum, ipsa ratione ab
-          incidunt suscipit! Facilis repellendus animi labore nemo, mollitia ad
-          dolores, neque similique dolorem odit quos fugiat nisi magnam
-          doloribus cum possimus voluptatum porro autem laborum ullam ut non
-          aperiam? Perferendis libero aperiam quasi tempora delectus architecto
-          cumque sunt illum eaque, labore consectetur velit saepe unde dolorum
-          culpa, praesentium est ipsa dolore. Accusamus architecto laudantium
-          esse. Praesentium, modi.
+          incidunt suscipit!
         </p>
       </div>
+      <Footer />
     </div>
   );
 };

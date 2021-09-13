@@ -3,7 +3,7 @@ import React from "react";
 const Subscribe = () => {
   return (
     <>
-    <div class="border-top border-danger w-100"></div>
+    <div class="border-top border-danger w-100 z-index-1"></div>
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand fw-bold " href="#">
@@ -19,7 +19,7 @@ const Subscribe = () => {
                 />
               </div>
               <div className="col-4 px-1">
-                <button className="btn btn-success btn-md">Subscript</button>
+                <button className="btn bg-danger btn-md">Subscript</button>
               </div>
             </form>
       </div>

@@ -1,13 +1,27 @@
 .App {
   text-align: center;
 }
-*{
-  /* border: 1px solid red; */
-}
+
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
   color: #616971;
+  background-color: #f4f4f4;
+}
+.bg-dark{
+  background-color: #34424a !important;
+}
+.bg-danger {
+  background-color: #b2e81d !important;
+}
+.text-danger {
+  color: #a74f86 !important;
+}
+.card {
+  background-color: #f4f4f4 !important;
+}
+.pointer:hover {
+  cursor: pointer !important;
 }
 
 nav {
@@ -15,9 +29,12 @@ nav {
   font-weight: 600;
   letter-spacing: 0.1rem;
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
-  z-index: 1;
   height: 7rem;
 }
+.navbarZ{
+  z-index: 1;
+}
+
 nav div a span{
   font-size: 2rem;
 }
@@ -26,8 +43,16 @@ nav div a span{
   padding: 0.5rem;
 }
 
+.navLink{
+  text-decoration: none;
+  color: #fff;
+}
+
 .card{
   border: none;
 }
 
+.services-bg {
+  background-color:#e6e6e4;
+}
 

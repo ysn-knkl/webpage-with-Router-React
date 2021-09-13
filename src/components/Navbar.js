@@ -1,11 +1,15 @@
 import React from "react";
+import { NavLink, useHistory } from "react-router-dom";
 
 const Navbar = () => {
+  let history = useHistory();
   return (
-    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbarZ">
       <div class="container">
-        <a class="navbar-brand fw-bold " href="#">
-          <span class="text-danger">Clarusway</span>{" "}
+        <a class="navbar-brand fw-bold pointer" onClick={() => {
+            history.push("/");
+          }}>
+          <span class="text-danger">Ysn-Knkl</span>{" "}
           <span >Web Design</span>
         </a>
         <button
@@ -18,9 +22,9 @@ const Navbar = () => {
         </button>
         <div class="collapse navbar-collapse" id="navbarToggler">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item "><a class="nav-link" href="#" active>HOME</a></li>
-            <li class="nav-item"><a class="nav-link" href="#" >ABOUT</a></li>
-            <li class="nav-item"><a class="nav-link" href="#" >SERVİCES</a></li>
+            <li class="nav-item "><NavLink class="navLink" exact to="/" >HOME</NavLink></li>
+            <li class="nav-item"><NavLink class="navLink" to="/about"  >ABOUT</NavLink></li>
+            <li class="nav-item"><NavLink class="navLink" to="/services" >SERVİCES</NavLink></li>
           </ul>
         </div>
       </div>

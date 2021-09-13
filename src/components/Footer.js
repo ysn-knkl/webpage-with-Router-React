@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col">
-              Copyright &copy; <span>Clarusway Web Design</span>
+              Copyright &copy; <span>Ysn-knkl Web Design</span>
             </div>
           </div>
         </div>
