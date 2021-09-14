@@ -3,7 +3,7 @@ import React from "react";
 const Subscribe = () => {
   return (
     <>
-    <div class="border-top border-danger w-100 z-index-1"></div>
+    <div class="border-top border-danger w-100"></div>
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand fw-bold " href="#">

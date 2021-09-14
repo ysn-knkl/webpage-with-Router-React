@@ -1,3 +1,6 @@
+html{
+  font-size: 1rem;;
+}
 .App {
   text-align: center;
 }
@@ -23,6 +26,8 @@ body {
 .pointer:hover {
   cursor: pointer !important;
 }
+
+
 
 nav {
   font-size: 1.5rem;
@@ -56,3 +61,19 @@ nav div a span{
   background-color:#e6e6e4;
 }
 
+
+@media (max-width: 1200px) {
+  html{
+    font-size: .9rem;;
+  }
+}
+@media (max-width: 992px) {
+  html{
+    font-size: .8rem;;
+  }
+}
+@media (max-width: 600px) {
+  html{
+    font-size: .7rem;;
+  }
+}
