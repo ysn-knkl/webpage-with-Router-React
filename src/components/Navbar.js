@@ -23,7 +23,7 @@ const Navbar = () => {
         <a class="navbar-brand fw-bold pointer" onClick={() => {
             history.push("/");
           }}>
-          <span class="text-danger">Ysn-Knkl</span>{" "}
+          <span class="text-danger">Clarusway</span>{" "}
           <span >Web Design</span>
         </a>
         <button
